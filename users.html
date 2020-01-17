@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <h3>Users.html</h3>
+        <form id="addUser">
+
+            <input type="text" name="name" id="name" placeholder="Name"><br><br>
+            <input type="text" name="email" id="email" placeholder="Email"><br><br>
+            <input type="password" name="password" id="password" placeholder="Password"><br><br>
+            <input type="date" name="date1" id="date1" placeholder="Date"><br><br>
+            <input type="button" name="submit" id="submit" value="Add User" onclick="validateUser();"><br><br>
+        
+        </form>
+        <table id="usertable" border="3">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+                
+                <th>Birthdate</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+           
+        </table>
+        <script src="users.js"></script>
+
+    </body>
+</html>

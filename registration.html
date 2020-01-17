@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+
+    </head>
+    <body>
+        <h3>Registration</h3><br><br>
+        <form id="registerationPage">
+            
+            <input type="text" name="name" id="name" placeholder="Name" required><br><br>
+            
+            <input type="text" name="email" id="email" placeholder="Email" required><br><br>
+            <input type="password" name="password1" id="password1" placeholder="Password" required><br><br>
+            <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm Password" required><br><br>
+            <select name="city" id="city" required>
+            
+                <option>Ahmedabad</option>
+                <option>Pune</option>
+                <option>Mumbai</option>
+                <option>Delhi</option>
+            </select><br><br>
+
+            <select name="state" id="state" required>
+            
+                <option>Gujarat</option>
+                <option>maharashtra</option>
+                <option>Uttar-Pradesh</option>
+            
+            </select><br><br>
+
+            <input type="checkbox" name="terms" id="terms" required>Terms & Condition<br><br>
+
+            <input type="button" name="register" id="register" value="Register" onclick="validateForm();">
+            <script src="registration.js"></script>
+        </form>
+
+    </body>
+</html>
